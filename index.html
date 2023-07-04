@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>W.</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <a href="#" class="logo">
+                <img src="./images/logo.svg" alt="logo" class="logo-img">
+            </a>
+            <nav class="primary-navigation">
+                <ul class="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">New</a></li>
+                    <li><a href="#">Popular</a></li>
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">Categories</a></li>
+                </ul>  
+            </nav>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            
+        </header>
+        <div class="modal"></div>
+        <main>
+            <div class="middle-section">
+                <div class="left-col">
+                    <picture class="hero-img">
+                        <source srcset="./images/image-web-3-desktop.jpg"
+                        media="(min-width: 718px)">
+                        <img src="./images/image-web-3-mobile.jpg" alt="">
+                    </picture>
+                    <div class="cta">
+                        <h1 class="cta-title">The Bright<br>Future of Web 3.0?</h1>
+                        <div class="cta-part">
+                            <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+                            <button class="cta-button">read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-col">
+                    <div class="news-corner">
+                        <h2 class="new-primary-title">New</h2>
+                        <div class="news-part">
+                            <h3 class="news-title"><a href="#">Hydrogen VS Electric Cars</a></h3>
+                            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+                        </div>
+                        <div class="news-part">
+                            <h3 class="news-title"><a href="#">The Downsided of AI Artistry</a></h3>
+                            <p>What are the possible adverse effects of on-demand AI image generation?</p>
+                        </div>
+                        <div class="news-part">
+                            <h3 class="news-title"><a href="#">Is VC Funding Drying Up?</a></h3>
+                            <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-section">
+                <div class="trending-article">
+                    <img src="./images/image-retro-pcs.jpg" alt="retro pc in an rgb lighting" class="trending-img">
+                    <div class="trending-left">
+                        <p class="trending-number">01</p>
+                        <h3 class="trending-title"><a href="#">Reviving Retro PCs</a></h3>
+                        <p>What happens when old PCs are given modern upgrades?</p>
+                    </div>
+                </div>
+                <div class="trending-article">
+                    <img src="./images/image-top-laptops.jpg" alt="close up of an laptop keyboard with red lighting" class="trending-img">
+                    <div class="trending-left">
+                        <p class="trending-number">02</p>
+                        <h3 class="trending-title"><a href="#">Top 10 Laptops of 2022</a></h3>
+                        <p>Our best picks for various needs and budgets.</p>
+                    </div>
+                </div>
+                <div class="trending-article">
+                    <img src="./images/image-gaming-growth.jpg" alt="white controller levitating above a hand" class="trending-img">
+                    <div class="trending-left">
+                        <p class="trending-number">03</p>
+                        <h3 class="trending-title"><a href="#">The Growth of Gaming</a></h3>
+                        <p>How the pandemic has sparked fresh opportunities.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
